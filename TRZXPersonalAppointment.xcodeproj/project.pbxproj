@@ -7,14 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42128B71F7E946146FAE6447 /* Pods_TRZXPersonalAppointment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561BC08BCFEAF7CDA35364F9 /* Pods_TRZXPersonalAppointment.framework */; };
+		B739368D1E78D99D00F4D547 /* 地点@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B73936851E78D99D00F4D547 /* 地点@2x.png */; };
+		B739368E1E78D99D00F4D547 /* 地点@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B73936861E78D99D00F4D547 /* 地点@3x.png */; };
+		B739368F1E78D99D00F4D547 /* 电话@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B73936871E78D99D00F4D547 /* 电话@2x.png */; };
+		B73936901E78D99D00F4D547 /* 电话@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B73936881E78D99D00F4D547 /* 电话@3x.png */; };
+		B73936911E78D99D00F4D547 /* 请教问题@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B73936891E78D99D00F4D547 /* 请教问题@2x.png */; };
+		B73936921E78D99D00F4D547 /* 请教问题@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B739368A1E78D99D00F4D547 /* 请教问题@3x.png */; };
+		B73936931E78D99D00F4D547 /* 自我介绍@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B739368B1E78D99D00F4D547 /* 自我介绍@2x.png */; };
+		B73936941E78D99D00F4D547 /* 自我介绍@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B739368C1E78D99D00F4D547 /* 自我介绍@3x.png */; };
+		B73936981E78D9B600F4D547 /* 红色点.png in Resources */ = {isa = PBXBuildFile; fileRef = B73936951E78D9B600F4D547 /* 红色点.png */; };
+		B73936991E78D9B600F4D547 /* 红色点白心.png in Resources */ = {isa = PBXBuildFile; fileRef = B73936961E78D9B600F4D547 /* 红色点白心.png */; };
+		B739369A1E78D9B600F4D547 /* 灰色点.png in Resources */ = {isa = PBXBuildFile; fileRef = B73936971E78D9B600F4D547 /* 灰色点.png */; };
+		B73936A01E78D9F800F4D547 /* jia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B739369B1E78D9F800F4D547 /* jia@2x.png */; };
+		B73936A11E78D9F800F4D547 /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = B739369C1E78D9F800F4D547 /* new.png */; };
+		B73936A21E78D9F800F4D547 /* yinlian.png in Resources */ = {isa = PBXBuildFile; fileRef = B739369D1E78D9F800F4D547 /* yinlian.png */; };
+		B73936A31E78D9F800F4D547 /* zhifu.png in Resources */ = {isa = PBXBuildFile; fileRef = B739369E1E78D9F800F4D547 /* zhifu.png */; };
+		B73936A41E78D9F800F4D547 /* zhifuselecd.png in Resources */ = {isa = PBXBuildFile; fileRef = B739369F1E78D9F800F4D547 /* zhifuselecd.png */; };
+		B73936A71E78DE9500F4D547 /* Target_TRZXPersonalAppointment.m in Sources */ = {isa = PBXBuildFile; fileRef = B73936A61E78DE9500F4D547 /* Target_TRZXPersonalAppointment.m */; };
+		B73936AA1E78DEA800F4D547 /* CTMediator+TRZXPersonalAppointment.m in Sources */ = {isa = PBXBuildFile; fileRef = B73936A91E78DEA800F4D547 /* CTMediator+TRZXPersonalAppointment.m */; };
 		B7420F4D1E77C5D800C33169 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F4C1E77C5D800C33169 /* main.m */; };
 		B7420F501E77C5D800C33169 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F4F1E77C5D800C33169 /* AppDelegate.m */; };
-		B7420F531E77C5D800C33169 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F521E77C5D800C33169 /* ViewController.m */; };
 		B7420F561E77C5D800C33169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7420F541E77C5D800C33169 /* Main.storyboard */; };
 		B7420F581E77C5D800C33169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7420F571E77C5D800C33169 /* Assets.xcassets */; };
 		B7420F5B1E77C5D800C33169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7420F591E77C5D800C33169 /* LaunchScreen.storyboard */; };
 		B7420F661E77C5D800C33169 /* TRZXPersonalAppointmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F651E77C5D800C33169 /* TRZXPersonalAppointmentTests.m */; };
 		B7420F711E77C5D800C33169 /* TRZXPersonalAppointmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F701E77C5D800C33169 /* TRZXPersonalAppointmentUITests.m */; };
+		B7420F951E77C74300C33169 /* CancelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F841E77C74300C33169 /* CancelViewController.m */; };
+		B7420F961E77C74300C33169 /* ChooseTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F861E77C74300C33169 /* ChooseTimeController.m */; };
+		B7420F971E77C74300C33169 /* LoadCountersignController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F881E77C74300C33169 /* LoadCountersignController.m */; };
+		B7420F981E77C74300C33169 /* LoadEvaluateController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F8A1E77C74300C33169 /* LoadEvaluateController.m */; };
+		B7420F991E77C74300C33169 /* LoadPaymentController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F8C1E77C74300C33169 /* LoadPaymentController.m */; };
+		B7420F9A1E77C74300C33169 /* LoadSeeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F8E1E77C74300C33169 /* LoadSeeController.m */; };
+		B7420F9B1E77C74300C33169 /* MyExpertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F901E77C74300C33169 /* MyExpertViewController.m */; };
+		B7420F9C1E77C74300C33169 /* UserFeedbackConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F921E77C74300C33169 /* UserFeedbackConroller.m */; };
+		B7420F9D1E77C74300C33169 /* YesEvaluateController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F941E77C74300C33169 /* YesEvaluateController.m */; };
+		B7420FA61E77C75400C33169 /* MyStudensController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420F9F1E77C75400C33169 /* MyStudensController.m */; };
+		B7420FA71E77C75400C33169 /* PleaseReceiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FA11E77C75400C33169 /* PleaseReceiveController.m */; };
+		B7420FA81E77C75400C33169 /* RefuseController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FA31E77C75400C33169 /* RefuseController.m */; };
+		B7420FA91E77C75400C33169 /* StudenCancelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FA51E77C75400C33169 /* StudenCancelController.m */; };
+		B7420FAE1E77C75C00C33169 /* CreateTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FAB1E77C75C00C33169 /* CreateTimeController.m */; };
+		B7420FAF1E77C75C00C33169 /* DaiFuKuanControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FAD1E77C75C00C33169 /* DaiFuKuanControllerViewController.m */; };
+		B7420FBC1E77C76D00C33169 /* ChonghuayjnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FB11E77C76D00C33169 /* ChonghuayjnCell.m */; };
+		B7420FBD1E77C76D00C33169 /* ChonghuayjnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FB21E77C76D00C33169 /* ChonghuayjnCell.xib */; };
+		B7420FBE1E77C76D00C33169 /* PikerTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FB41E77C76D00C33169 /* PikerTimeCell.m */; };
+		B7420FBF1E77C76D00C33169 /* PikerTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FB51E77C76D00C33169 /* PikerTimeCell.xib */; };
+		B7420FC01E77C76D00C33169 /* StudensWenTiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FB71E77C76D00C33169 /* StudensWenTiCell.m */; };
+		B7420FC11E77C76D00C33169 /* StudensWenTiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FB81E77C76D00C33169 /* StudensWenTiCell.xib */; };
+		B7420FC21E77C76D00C33169 /* WriteDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FBA1E77C76D00C33169 /* WriteDataCell.m */; };
+		B7420FC31E77C76D00C33169 /* WriteDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FBB1E77C76D00C33169 /* WriteDataCell.xib */; };
+		B7420FCD1E77C77900C33169 /* ConsultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FC51E77C77900C33169 /* ConsultView.m */; };
+		B7420FCE1E77C77900C33169 /* ConsultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FC61E77C77900C33169 /* ConsultView.xib */; };
+		B7420FCF1E77C77900C33169 /* loadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FC81E77C77900C33169 /* loadView.m */; };
+		B7420FD01E77C77900C33169 /* loadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FC91E77C77900C33169 /* loadView.xib */; };
+		B7420FD11E77C77900C33169 /* TimeSiztView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FCB1E77C77900C33169 /* TimeSiztView.m */; };
+		B7420FD21E77C77900C33169 /* TimeSiztView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FCC1E77C77900C33169 /* TimeSiztView.xib */; };
+		B7420FEB1E77C78500C33169 /* ChoosetimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FD41E77C78500C33169 /* ChoosetimeCell.m */; };
+		B7420FEC1E77C78500C33169 /* ChoosetimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FD51E77C78500C33169 /* ChoosetimeCell.xib */; };
+		B7420FED1E77C78500C33169 /* EvaluateBelowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FD71E77C78500C33169 /* EvaluateBelowCell.m */; };
+		B7420FEE1E77C78500C33169 /* EvaluateBelowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FD81E77C78500C33169 /* EvaluateBelowCell.xib */; };
+		B7420FEF1E77C78500C33169 /* EvaluateCentreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FDA1E77C78500C33169 /* EvaluateCentreCell.m */; };
+		B7420FF01E77C78500C33169 /* EvaluateCentreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FDB1E77C78500C33169 /* EvaluateCentreCell.xib */; };
+		B7420FF11E77C78500C33169 /* ExpertCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FDD1E77C78500C33169 /* ExpertCell.m */; };
+		B7420FF21E77C78500C33169 /* ExpertCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FDE1E77C78500C33169 /* ExpertCell.xib */; };
+		B7420FF31E77C78500C33169 /* PaymentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FE01E77C78500C33169 /* PaymentCell.m */; };
+		B7420FF41E77C78500C33169 /* PaymentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FE11E77C78500C33169 /* PaymentCell.xib */; };
+		B7420FF51E77C78500C33169 /* PaymentTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FE31E77C78500C33169 /* PaymentTimeCell.m */; };
+		B7420FF61E77C78500C33169 /* PaymentTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FE41E77C78500C33169 /* PaymentTimeCell.xib */; };
+		B7420FF71E77C78500C33169 /* PersonalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FE61E77C78500C33169 /* PersonalCell.m */; };
+		B7420FF81E77C78500C33169 /* PersonalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FE71E77C78500C33169 /* PersonalCell.xib */; };
+		B7420FF91E77C78500C33169 /* QuXiaoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FE91E77C78500C33169 /* QuXiaoTableViewCell.m */; };
+		B7420FFA1E77C78500C33169 /* QuXiaoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7420FEA1E77C78500C33169 /* QuXiaoTableViewCell.xib */; };
+		B74210011E77C79200C33169 /* ChooseMode.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FFC1E77C79200C33169 /* ChooseMode.m */; };
+		B74210021E77C79200C33169 /* MeetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7420FFE1E77C79200C33169 /* MeetModel.m */; };
+		B74210031E77C79200C33169 /* MyExpertModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B74210001E77C79200C33169 /* MyExpertModel.m */; };
+		B74210081E77C7A100C33169 /* MyStudensMode.m in Sources */ = {isa = PBXBuildFile; fileRef = B74210051E77C7A100C33169 /* MyStudensMode.m */; };
+		B74210091E77C7A100C33169 /* SrudensDetailed.m in Sources */ = {isa = PBXBuildFile; fileRef = B74210071E77C7A100C33169 /* SrudensDetailed.m */; };
+		B742100C1E77C80900C33169 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B742100B1E77C80900C33169 /* FirstViewController.m */; };
+		B742100F1E77CA9A00C33169 /* TRZXPJiDuView.m in Sources */ = {isa = PBXBuildFile; fileRef = B742100E1E77CA9A00C33169 /* TRZXPJiDuView.m */; };
+		B74210131E77D04900C33169 /* YuYueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74210111E77D04900C33169 /* YuYueViewController.m */; };
+		B74210141E77D04900C33169 /* YuYueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74210121E77D04900C33169 /* YuYueViewController.xib */; };
+		B74210171E77D4F400C33169 /* TRZAExpertsDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B74210161E77D4F400C33169 /* TRZAExpertsDetailModel.m */; };
+		B742101A1E77D5D300C33169 /* TRZXPStar.m in Sources */ = {isa = PBXBuildFile; fileRef = B74210191E77D5D300C33169 /* TRZXPStar.m */; };
+		B742101D1E77DEA300C33169 /* TRZXPersonalAppointmentPch.m in Sources */ = {isa = PBXBuildFile; fileRef = B742101C1E77DEA300C33169 /* TRZXPersonalAppointmentPch.m */; };
+		B74210211E77F13E00C33169 /* TRZBookingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B742101F1E77F13E00C33169 /* TRZBookingView.m */; };
+		B74210221E77F13E00C33169 /* TRZBookingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74210201E77F13E00C33169 /* TRZBookingView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +112,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41E886926923A76D4C48D51E /* Pods-TRZXPersonalAppointment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXPersonalAppointment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXPersonalAppointment/Pods-TRZXPersonalAppointment.debug.xcconfig"; sourceTree = "<group>"; };
+		561BC08BCFEAF7CDA35364F9 /* Pods_TRZXPersonalAppointment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRZXPersonalAppointment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B73936851E78D99D00F4D547 /* 地点@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地点@2x.png"; sourceTree = "<group>"; };
+		B73936861E78D99D00F4D547 /* 地点@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地点@3x.png"; sourceTree = "<group>"; };
+		B73936871E78D99D00F4D547 /* 电话@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电话@2x.png"; sourceTree = "<group>"; };
+		B73936881E78D99D00F4D547 /* 电话@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电话@3x.png"; sourceTree = "<group>"; };
+		B73936891E78D99D00F4D547 /* 请教问题@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "请教问题@2x.png"; sourceTree = "<group>"; };
+		B739368A1E78D99D00F4D547 /* 请教问题@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "请教问题@3x.png"; sourceTree = "<group>"; };
+		B739368B1E78D99D00F4D547 /* 自我介绍@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自我介绍@2x.png"; sourceTree = "<group>"; };
+		B739368C1E78D99D00F4D547 /* 自我介绍@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自我介绍@3x.png"; sourceTree = "<group>"; };
+		B73936951E78D9B600F4D547 /* 红色点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红色点.png"; sourceTree = "<group>"; };
+		B73936961E78D9B600F4D547 /* 红色点白心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红色点白心.png"; sourceTree = "<group>"; };
+		B73936971E78D9B600F4D547 /* 灰色点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "灰色点.png"; sourceTree = "<group>"; };
+		B739369B1E78D9F800F4D547 /* jia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jia@2x.png"; sourceTree = "<group>"; };
+		B739369C1E78D9F800F4D547 /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		B739369D1E78D9F800F4D547 /* yinlian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yinlian.png; sourceTree = "<group>"; };
+		B739369E1E78D9F800F4D547 /* zhifu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhifu.png; sourceTree = "<group>"; };
+		B739369F1E78D9F800F4D547 /* zhifuselecd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhifuselecd.png; sourceTree = "<group>"; };
+		B73936A51E78DE9500F4D547 /* Target_TRZXPersonalAppointment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TRZXPersonalAppointment.h; sourceTree = "<group>"; };
+		B73936A61E78DE9500F4D547 /* Target_TRZXPersonalAppointment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TRZXPersonalAppointment.m; sourceTree = "<group>"; };
+		B73936A81E78DEA800F4D547 /* CTMediator+TRZXPersonalAppointment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TRZXPersonalAppointment.h"; sourceTree = "<group>"; };
+		B73936A91E78DEA800F4D547 /* CTMediator+TRZXPersonalAppointment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TRZXPersonalAppointment.m"; sourceTree = "<group>"; };
 		B7420F481E77C5D800C33169 /* TRZXPersonalAppointment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXPersonalAppointment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7420F4C1E77C5D800C33169 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7420F4E1E77C5D800C33169 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B7420F4F1E77C5D800C33169 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B7420F511E77C5D800C33169 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B7420F521E77C5D800C33169 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B7420F551E77C5D800C33169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7420F571E77C5D800C33169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7420F5A1E77C5D800C33169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +148,108 @@
 		B7420F6C1E77C5D800C33169 /* TRZXPersonalAppointmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXPersonalAppointmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7420F701E77C5D800C33169 /* TRZXPersonalAppointmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalAppointmentUITests.m; sourceTree = "<group>"; };
 		B7420F721E77C5D800C33169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7420F831E77C74300C33169 /* CancelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelViewController.h; sourceTree = "<group>"; };
+		B7420F841E77C74300C33169 /* CancelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelViewController.m; sourceTree = "<group>"; };
+		B7420F851E77C74300C33169 /* ChooseTimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseTimeController.h; sourceTree = "<group>"; };
+		B7420F861E77C74300C33169 /* ChooseTimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseTimeController.m; sourceTree = "<group>"; };
+		B7420F871E77C74300C33169 /* LoadCountersignController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadCountersignController.h; sourceTree = "<group>"; };
+		B7420F881E77C74300C33169 /* LoadCountersignController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadCountersignController.m; sourceTree = "<group>"; };
+		B7420F891E77C74300C33169 /* LoadEvaluateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadEvaluateController.h; sourceTree = "<group>"; };
+		B7420F8A1E77C74300C33169 /* LoadEvaluateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadEvaluateController.m; sourceTree = "<group>"; };
+		B7420F8B1E77C74300C33169 /* LoadPaymentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadPaymentController.h; sourceTree = "<group>"; };
+		B7420F8C1E77C74300C33169 /* LoadPaymentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadPaymentController.m; sourceTree = "<group>"; };
+		B7420F8D1E77C74300C33169 /* LoadSeeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadSeeController.h; sourceTree = "<group>"; };
+		B7420F8E1E77C74300C33169 /* LoadSeeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadSeeController.m; sourceTree = "<group>"; };
+		B7420F8F1E77C74300C33169 /* MyExpertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyExpertViewController.h; sourceTree = "<group>"; };
+		B7420F901E77C74300C33169 /* MyExpertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyExpertViewController.m; sourceTree = "<group>"; };
+		B7420F911E77C74300C33169 /* UserFeedbackConroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserFeedbackConroller.h; sourceTree = "<group>"; };
+		B7420F921E77C74300C33169 /* UserFeedbackConroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserFeedbackConroller.m; sourceTree = "<group>"; };
+		B7420F931E77C74300C33169 /* YesEvaluateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YesEvaluateController.h; sourceTree = "<group>"; };
+		B7420F941E77C74300C33169 /* YesEvaluateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YesEvaluateController.m; sourceTree = "<group>"; };
+		B7420F9E1E77C75400C33169 /* MyStudensController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStudensController.h; sourceTree = "<group>"; };
+		B7420F9F1E77C75400C33169 /* MyStudensController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStudensController.m; sourceTree = "<group>"; };
+		B7420FA01E77C75400C33169 /* PleaseReceiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PleaseReceiveController.h; sourceTree = "<group>"; };
+		B7420FA11E77C75400C33169 /* PleaseReceiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PleaseReceiveController.m; sourceTree = "<group>"; };
+		B7420FA21E77C75400C33169 /* RefuseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefuseController.h; sourceTree = "<group>"; };
+		B7420FA31E77C75400C33169 /* RefuseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefuseController.m; sourceTree = "<group>"; };
+		B7420FA41E77C75400C33169 /* StudenCancelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudenCancelController.h; sourceTree = "<group>"; };
+		B7420FA51E77C75400C33169 /* StudenCancelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudenCancelController.m; sourceTree = "<group>"; };
+		B7420FAA1E77C75C00C33169 /* CreateTimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateTimeController.h; sourceTree = "<group>"; };
+		B7420FAB1E77C75C00C33169 /* CreateTimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateTimeController.m; sourceTree = "<group>"; };
+		B7420FAC1E77C75C00C33169 /* DaiFuKuanControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiFuKuanControllerViewController.h; sourceTree = "<group>"; };
+		B7420FAD1E77C75C00C33169 /* DaiFuKuanControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiFuKuanControllerViewController.m; sourceTree = "<group>"; };
+		B7420FB01E77C76D00C33169 /* ChonghuayjnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChonghuayjnCell.h; sourceTree = "<group>"; };
+		B7420FB11E77C76D00C33169 /* ChonghuayjnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChonghuayjnCell.m; sourceTree = "<group>"; };
+		B7420FB21E77C76D00C33169 /* ChonghuayjnCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChonghuayjnCell.xib; sourceTree = "<group>"; };
+		B7420FB31E77C76D00C33169 /* PikerTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PikerTimeCell.h; sourceTree = "<group>"; };
+		B7420FB41E77C76D00C33169 /* PikerTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PikerTimeCell.m; sourceTree = "<group>"; };
+		B7420FB51E77C76D00C33169 /* PikerTimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PikerTimeCell.xib; sourceTree = "<group>"; };
+		B7420FB61E77C76D00C33169 /* StudensWenTiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudensWenTiCell.h; sourceTree = "<group>"; };
+		B7420FB71E77C76D00C33169 /* StudensWenTiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudensWenTiCell.m; sourceTree = "<group>"; };
+		B7420FB81E77C76D00C33169 /* StudensWenTiCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudensWenTiCell.xib; sourceTree = "<group>"; };
+		B7420FB91E77C76D00C33169 /* WriteDataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteDataCell.h; sourceTree = "<group>"; };
+		B7420FBA1E77C76D00C33169 /* WriteDataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteDataCell.m; sourceTree = "<group>"; };
+		B7420FBB1E77C76D00C33169 /* WriteDataCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WriteDataCell.xib; sourceTree = "<group>"; };
+		B7420FC41E77C77900C33169 /* ConsultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultView.h; sourceTree = "<group>"; };
+		B7420FC51E77C77900C33169 /* ConsultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultView.m; sourceTree = "<group>"; };
+		B7420FC61E77C77900C33169 /* ConsultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConsultView.xib; sourceTree = "<group>"; };
+		B7420FC71E77C77900C33169 /* loadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadView.h; sourceTree = "<group>"; };
+		B7420FC81E77C77900C33169 /* loadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loadView.m; sourceTree = "<group>"; };
+		B7420FC91E77C77900C33169 /* loadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loadView.xib; sourceTree = "<group>"; };
+		B7420FCA1E77C77900C33169 /* TimeSiztView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeSiztView.h; sourceTree = "<group>"; };
+		B7420FCB1E77C77900C33169 /* TimeSiztView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeSiztView.m; sourceTree = "<group>"; };
+		B7420FCC1E77C77900C33169 /* TimeSiztView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeSiztView.xib; sourceTree = "<group>"; };
+		B7420FD31E77C78500C33169 /* ChoosetimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosetimeCell.h; sourceTree = "<group>"; };
+		B7420FD41E77C78500C33169 /* ChoosetimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosetimeCell.m; sourceTree = "<group>"; };
+		B7420FD51E77C78500C33169 /* ChoosetimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChoosetimeCell.xib; sourceTree = "<group>"; };
+		B7420FD61E77C78500C33169 /* EvaluateBelowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaluateBelowCell.h; sourceTree = "<group>"; };
+		B7420FD71E77C78500C33169 /* EvaluateBelowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaluateBelowCell.m; sourceTree = "<group>"; };
+		B7420FD81E77C78500C33169 /* EvaluateBelowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EvaluateBelowCell.xib; sourceTree = "<group>"; };
+		B7420FD91E77C78500C33169 /* EvaluateCentreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaluateCentreCell.h; sourceTree = "<group>"; };
+		B7420FDA1E77C78500C33169 /* EvaluateCentreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaluateCentreCell.m; sourceTree = "<group>"; };
+		B7420FDB1E77C78500C33169 /* EvaluateCentreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EvaluateCentreCell.xib; sourceTree = "<group>"; };
+		B7420FDC1E77C78500C33169 /* ExpertCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpertCell.h; sourceTree = "<group>"; };
+		B7420FDD1E77C78500C33169 /* ExpertCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpertCell.m; sourceTree = "<group>"; };
+		B7420FDE1E77C78500C33169 /* ExpertCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpertCell.xib; sourceTree = "<group>"; };
+		B7420FDF1E77C78500C33169 /* PaymentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentCell.h; sourceTree = "<group>"; };
+		B7420FE01E77C78500C33169 /* PaymentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentCell.m; sourceTree = "<group>"; };
+		B7420FE11E77C78500C33169 /* PaymentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentCell.xib; sourceTree = "<group>"; };
+		B7420FE21E77C78500C33169 /* PaymentTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentTimeCell.h; sourceTree = "<group>"; };
+		B7420FE31E77C78500C33169 /* PaymentTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentTimeCell.m; sourceTree = "<group>"; };
+		B7420FE41E77C78500C33169 /* PaymentTimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentTimeCell.xib; sourceTree = "<group>"; };
+		B7420FE51E77C78500C33169 /* PersonalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCell.h; sourceTree = "<group>"; };
+		B7420FE61E77C78500C33169 /* PersonalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCell.m; sourceTree = "<group>"; };
+		B7420FE71E77C78500C33169 /* PersonalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalCell.xib; sourceTree = "<group>"; };
+		B7420FE81E77C78500C33169 /* QuXiaoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuXiaoTableViewCell.h; sourceTree = "<group>"; };
+		B7420FE91E77C78500C33169 /* QuXiaoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuXiaoTableViewCell.m; sourceTree = "<group>"; };
+		B7420FEA1E77C78500C33169 /* QuXiaoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuXiaoTableViewCell.xib; sourceTree = "<group>"; };
+		B7420FFB1E77C79200C33169 /* ChooseMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseMode.h; sourceTree = "<group>"; };
+		B7420FFC1E77C79200C33169 /* ChooseMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseMode.m; sourceTree = "<group>"; };
+		B7420FFD1E77C79200C33169 /* MeetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetModel.h; sourceTree = "<group>"; };
+		B7420FFE1E77C79200C33169 /* MeetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetModel.m; sourceTree = "<group>"; };
+		B7420FFF1E77C79200C33169 /* MyExpertModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyExpertModel.h; sourceTree = "<group>"; };
+		B74210001E77C79200C33169 /* MyExpertModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyExpertModel.m; sourceTree = "<group>"; };
+		B74210041E77C7A100C33169 /* MyStudensMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStudensMode.h; sourceTree = "<group>"; };
+		B74210051E77C7A100C33169 /* MyStudensMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStudensMode.m; sourceTree = "<group>"; };
+		B74210061E77C7A100C33169 /* SrudensDetailed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SrudensDetailed.h; sourceTree = "<group>"; };
+		B74210071E77C7A100C33169 /* SrudensDetailed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SrudensDetailed.m; sourceTree = "<group>"; };
+		B742100A1E77C80900C33169 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B742100B1E77C80900C33169 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B742100D1E77CA9A00C33169 /* TRZXPJiDuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPJiDuView.h; sourceTree = "<group>"; };
+		B742100E1E77CA9A00C33169 /* TRZXPJiDuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPJiDuView.m; sourceTree = "<group>"; };
+		B74210101E77D04900C33169 /* YuYueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuYueViewController.h; sourceTree = "<group>"; };
+		B74210111E77D04900C33169 /* YuYueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuYueViewController.m; sourceTree = "<group>"; };
+		B74210121E77D04900C33169 /* YuYueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YuYueViewController.xib; sourceTree = "<group>"; };
+		B74210151E77D4F400C33169 /* TRZAExpertsDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZAExpertsDetailModel.h; sourceTree = "<group>"; };
+		B74210161E77D4F400C33169 /* TRZAExpertsDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZAExpertsDetailModel.m; sourceTree = "<group>"; };
+		B74210181E77D5D300C33169 /* TRZXPStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPStar.h; sourceTree = "<group>"; };
+		B74210191E77D5D300C33169 /* TRZXPStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPStar.m; sourceTree = "<group>"; };
+		B742101B1E77DEA300C33169 /* TRZXPersonalAppointmentPch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPersonalAppointmentPch.h; sourceTree = "<group>"; };
+		B742101C1E77DEA300C33169 /* TRZXPersonalAppointmentPch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalAppointmentPch.m; sourceTree = "<group>"; };
+		B742101E1E77F13E00C33169 /* TRZBookingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZBookingView.h; sourceTree = "<group>"; };
+		B742101F1E77F13E00C33169 /* TRZBookingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZBookingView.m; sourceTree = "<group>"; };
+		B74210201E77F13E00C33169 /* TRZBookingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZBookingView.xib; sourceTree = "<group>"; };
+		B861F90F2AF541B2A3E34D4C /* Pods-TRZXPersonalAppointment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXPersonalAppointment.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXPersonalAppointment/Pods-TRZXPersonalAppointment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +257,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42128B71F7E946146FAE6447 /* Pods_TRZXPersonalAppointment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +278,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0581C68E1B436DC6540FEFA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				561BC08BCFEAF7CDA35364F9 /* Pods_TRZXPersonalAppointment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B7420F3F1E77C5D800C33169 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +293,8 @@
 				B7420F641E77C5D800C33169 /* TRZXPersonalAppointmentTests */,
 				B7420F6F1E77C5D800C33169 /* TRZXPersonalAppointmentUITests */,
 				B7420F491E77C5D800C33169 /* Products */,
+				CFAD3166D23B4C86229A095A /* Pods */,
+				0581C68E1B436DC6540FEFA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +311,11 @@
 		B7420F4A1E77C5D800C33169 /* TRZXPersonalAppointment */ = {
 			isa = PBXGroup;
 			children = (
+				B7420F7E1E77C5F200C33169 /* TRZXPersonalAppointment */,
 				B7420F4E1E77C5D800C33169 /* AppDelegate.h */,
 				B7420F4F1E77C5D800C33169 /* AppDelegate.m */,
-				B7420F511E77C5D800C33169 /* ViewController.h */,
-				B7420F521E77C5D800C33169 /* ViewController.m */,
+				B742100A1E77C80900C33169 /* FirstViewController.h */,
+				B742100B1E77C80900C33169 /* FirstViewController.m */,
 				B7420F541E77C5D800C33169 /* Main.storyboard */,
 				B7420F571E77C5D800C33169 /* Assets.xcassets */,
 				B7420F591E77C5D800C33169 /* LaunchScreen.storyboard */,
@@ -140,6 +351,173 @@
 			path = TRZXPersonalAppointmentUITests;
 			sourceTree = "<group>";
 		};
+		B7420F7E1E77C5F200C33169 /* TRZXPersonalAppointment */ = {
+			isa = PBXGroup;
+			children = (
+				B7420F7F1E77C71F00C33169 /* Modes */,
+				B7420F801E77C71F00C33169 /* Views */,
+				B7420F811E77C71F00C33169 /* Controllers */,
+				B7420F821E77C71F00C33169 /* Resources */,
+			);
+			path = TRZXPersonalAppointment;
+			sourceTree = "<group>";
+		};
+		B7420F7F1E77C71F00C33169 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+				B74210151E77D4F400C33169 /* TRZAExpertsDetailModel.h */,
+				B74210161E77D4F400C33169 /* TRZAExpertsDetailModel.m */,
+				B7420FFB1E77C79200C33169 /* ChooseMode.h */,
+				B7420FFC1E77C79200C33169 /* ChooseMode.m */,
+				B7420FFD1E77C79200C33169 /* MeetModel.h */,
+				B7420FFE1E77C79200C33169 /* MeetModel.m */,
+				B7420FFF1E77C79200C33169 /* MyExpertModel.h */,
+				B74210001E77C79200C33169 /* MyExpertModel.m */,
+				B74210041E77C7A100C33169 /* MyStudensMode.h */,
+				B74210051E77C7A100C33169 /* MyStudensMode.m */,
+				B74210061E77C7A100C33169 /* SrudensDetailed.h */,
+				B74210071E77C7A100C33169 /* SrudensDetailed.m */,
+			);
+			path = Modes;
+			sourceTree = "<group>";
+		};
+		B7420F801E77C71F00C33169 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B742101E1E77F13E00C33169 /* TRZBookingView.h */,
+				B742101F1E77F13E00C33169 /* TRZBookingView.m */,
+				B74210201E77F13E00C33169 /* TRZBookingView.xib */,
+				B74210181E77D5D300C33169 /* TRZXPStar.h */,
+				B74210191E77D5D300C33169 /* TRZXPStar.m */,
+				B742100D1E77CA9A00C33169 /* TRZXPJiDuView.h */,
+				B742100E1E77CA9A00C33169 /* TRZXPJiDuView.m */,
+				B7420FD31E77C78500C33169 /* ChoosetimeCell.h */,
+				B7420FD41E77C78500C33169 /* ChoosetimeCell.m */,
+				B7420FD51E77C78500C33169 /* ChoosetimeCell.xib */,
+				B7420FD61E77C78500C33169 /* EvaluateBelowCell.h */,
+				B7420FD71E77C78500C33169 /* EvaluateBelowCell.m */,
+				B7420FD81E77C78500C33169 /* EvaluateBelowCell.xib */,
+				B7420FD91E77C78500C33169 /* EvaluateCentreCell.h */,
+				B7420FDA1E77C78500C33169 /* EvaluateCentreCell.m */,
+				B7420FDB1E77C78500C33169 /* EvaluateCentreCell.xib */,
+				B7420FDC1E77C78500C33169 /* ExpertCell.h */,
+				B7420FDD1E77C78500C33169 /* ExpertCell.m */,
+				B7420FDE1E77C78500C33169 /* ExpertCell.xib */,
+				B7420FDF1E77C78500C33169 /* PaymentCell.h */,
+				B7420FE01E77C78500C33169 /* PaymentCell.m */,
+				B7420FE11E77C78500C33169 /* PaymentCell.xib */,
+				B7420FE21E77C78500C33169 /* PaymentTimeCell.h */,
+				B7420FE31E77C78500C33169 /* PaymentTimeCell.m */,
+				B7420FE41E77C78500C33169 /* PaymentTimeCell.xib */,
+				B7420FE51E77C78500C33169 /* PersonalCell.h */,
+				B7420FE61E77C78500C33169 /* PersonalCell.m */,
+				B7420FE71E77C78500C33169 /* PersonalCell.xib */,
+				B7420FE81E77C78500C33169 /* QuXiaoTableViewCell.h */,
+				B7420FE91E77C78500C33169 /* QuXiaoTableViewCell.m */,
+				B7420FEA1E77C78500C33169 /* QuXiaoTableViewCell.xib */,
+				B7420FB01E77C76D00C33169 /* ChonghuayjnCell.h */,
+				B7420FB11E77C76D00C33169 /* ChonghuayjnCell.m */,
+				B7420FB21E77C76D00C33169 /* ChonghuayjnCell.xib */,
+				B7420FB31E77C76D00C33169 /* PikerTimeCell.h */,
+				B7420FB41E77C76D00C33169 /* PikerTimeCell.m */,
+				B7420FB51E77C76D00C33169 /* PikerTimeCell.xib */,
+				B7420FB61E77C76D00C33169 /* StudensWenTiCell.h */,
+				B7420FB71E77C76D00C33169 /* StudensWenTiCell.m */,
+				B7420FB81E77C76D00C33169 /* StudensWenTiCell.xib */,
+				B7420FB91E77C76D00C33169 /* WriteDataCell.h */,
+				B7420FBA1E77C76D00C33169 /* WriteDataCell.m */,
+				B7420FBB1E77C76D00C33169 /* WriteDataCell.xib */,
+				B7420FC41E77C77900C33169 /* ConsultView.h */,
+				B7420FC51E77C77900C33169 /* ConsultView.m */,
+				B7420FC61E77C77900C33169 /* ConsultView.xib */,
+				B7420FC71E77C77900C33169 /* loadView.h */,
+				B7420FC81E77C77900C33169 /* loadView.m */,
+				B7420FC91E77C77900C33169 /* loadView.xib */,
+				B7420FCA1E77C77900C33169 /* TimeSiztView.h */,
+				B7420FCB1E77C77900C33169 /* TimeSiztView.m */,
+				B7420FCC1E77C77900C33169 /* TimeSiztView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7420F811E77C71F00C33169 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7420F831E77C74300C33169 /* CancelViewController.h */,
+				B7420F841E77C74300C33169 /* CancelViewController.m */,
+				B7420F851E77C74300C33169 /* ChooseTimeController.h */,
+				B7420F861E77C74300C33169 /* ChooseTimeController.m */,
+				B7420F871E77C74300C33169 /* LoadCountersignController.h */,
+				B7420F881E77C74300C33169 /* LoadCountersignController.m */,
+				B7420F891E77C74300C33169 /* LoadEvaluateController.h */,
+				B7420F8A1E77C74300C33169 /* LoadEvaluateController.m */,
+				B7420F8B1E77C74300C33169 /* LoadPaymentController.h */,
+				B7420F8C1E77C74300C33169 /* LoadPaymentController.m */,
+				B7420F8D1E77C74300C33169 /* LoadSeeController.h */,
+				B7420F8E1E77C74300C33169 /* LoadSeeController.m */,
+				B7420F8F1E77C74300C33169 /* MyExpertViewController.h */,
+				B7420F901E77C74300C33169 /* MyExpertViewController.m */,
+				B7420F911E77C74300C33169 /* UserFeedbackConroller.h */,
+				B7420F921E77C74300C33169 /* UserFeedbackConroller.m */,
+				B7420F931E77C74300C33169 /* YesEvaluateController.h */,
+				B7420F941E77C74300C33169 /* YesEvaluateController.m */,
+				B7420F9E1E77C75400C33169 /* MyStudensController.h */,
+				B7420F9F1E77C75400C33169 /* MyStudensController.m */,
+				B7420FA01E77C75400C33169 /* PleaseReceiveController.h */,
+				B7420FA11E77C75400C33169 /* PleaseReceiveController.m */,
+				B7420FA21E77C75400C33169 /* RefuseController.h */,
+				B7420FA31E77C75400C33169 /* RefuseController.m */,
+				B7420FA41E77C75400C33169 /* StudenCancelController.h */,
+				B7420FA51E77C75400C33169 /* StudenCancelController.m */,
+				B7420FAA1E77C75C00C33169 /* CreateTimeController.h */,
+				B7420FAB1E77C75C00C33169 /* CreateTimeController.m */,
+				B7420FAC1E77C75C00C33169 /* DaiFuKuanControllerViewController.h */,
+				B7420FAD1E77C75C00C33169 /* DaiFuKuanControllerViewController.m */,
+				B74210101E77D04900C33169 /* YuYueViewController.h */,
+				B74210111E77D04900C33169 /* YuYueViewController.m */,
+				B74210121E77D04900C33169 /* YuYueViewController.xib */,
+				B742101B1E77DEA300C33169 /* TRZXPersonalAppointmentPch.h */,
+				B742101C1E77DEA300C33169 /* TRZXPersonalAppointmentPch.m */,
+				B73936A51E78DE9500F4D547 /* Target_TRZXPersonalAppointment.h */,
+				B73936A61E78DE9500F4D547 /* Target_TRZXPersonalAppointment.m */,
+				B73936A81E78DEA800F4D547 /* CTMediator+TRZXPersonalAppointment.h */,
+				B73936A91E78DEA800F4D547 /* CTMediator+TRZXPersonalAppointment.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B7420F821E77C71F00C33169 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B739369B1E78D9F800F4D547 /* jia@2x.png */,
+				B739369C1E78D9F800F4D547 /* new.png */,
+				B739369D1E78D9F800F4D547 /* yinlian.png */,
+				B739369E1E78D9F800F4D547 /* zhifu.png */,
+				B739369F1E78D9F800F4D547 /* zhifuselecd.png */,
+				B73936951E78D9B600F4D547 /* 红色点.png */,
+				B73936961E78D9B600F4D547 /* 红色点白心.png */,
+				B73936971E78D9B600F4D547 /* 灰色点.png */,
+				B73936851E78D99D00F4D547 /* 地点@2x.png */,
+				B73936861E78D99D00F4D547 /* 地点@3x.png */,
+				B73936871E78D99D00F4D547 /* 电话@2x.png */,
+				B73936881E78D99D00F4D547 /* 电话@3x.png */,
+				B73936891E78D99D00F4D547 /* 请教问题@2x.png */,
+				B739368A1E78D99D00F4D547 /* 请教问题@3x.png */,
+				B739368B1E78D99D00F4D547 /* 自我介绍@2x.png */,
+				B739368C1E78D99D00F4D547 /* 自我介绍@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CFAD3166D23B4C86229A095A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41E886926923A76D4C48D51E /* Pods-TRZXPersonalAppointment.debug.xcconfig */,
+				B861F90F2AF541B2A3E34D4C /* Pods-TRZXPersonalAppointment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +525,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7420F751E77C5D800C33169 /* Build configuration list for PBXNativeTarget "TRZXPersonalAppointment" */;
 			buildPhases = (
+				CC5C606DC3F23EF6BFBC7A1A /* [CP] Check Pods Manifest.lock */,
 				B7420F441E77C5D800C33169 /* Sources */,
 				B7420F451E77C5D800C33169 /* Frameworks */,
 				B7420F461E77C5D800C33169 /* Resources */,
+				EC59D24DB10698C9915C31C3 /* [CP] Embed Pods Frameworks */,
+				9B043A85ED96F889247D20BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,8 +627,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B73936A21E78D9F800F4D547 /* yinlian.png in Resources */,
+				B74210221E77F13E00C33169 /* TRZBookingView.xib in Resources */,
+				B73936901E78D99D00F4D547 /* 电话@3x.png in Resources */,
 				B7420F5B1E77C5D800C33169 /* LaunchScreen.storyboard in Resources */,
+				B7420FF61E77C78500C33169 /* PaymentTimeCell.xib in Resources */,
+				B73936931E78D99D00F4D547 /* 自我介绍@2x.png in Resources */,
+				B7420FF21E77C78500C33169 /* ExpertCell.xib in Resources */,
+				B73936A11E78D9F800F4D547 /* new.png in Resources */,
+				B74210141E77D04900C33169 /* YuYueViewController.xib in Resources */,
+				B7420FBF1E77C76D00C33169 /* PikerTimeCell.xib in Resources */,
 				B7420F581E77C5D800C33169 /* Assets.xcassets in Resources */,
+				B7420FEC1E77C78500C33169 /* ChoosetimeCell.xib in Resources */,
+				B7420FCE1E77C77900C33169 /* ConsultView.xib in Resources */,
+				B7420FC31E77C76D00C33169 /* WriteDataCell.xib in Resources */,
+				B73936941E78D99D00F4D547 /* 自我介绍@3x.png in Resources */,
+				B7420FEE1E77C78500C33169 /* EvaluateBelowCell.xib in Resources */,
+				B739368D1E78D99D00F4D547 /* 地点@2x.png in Resources */,
+				B7420FF41E77C78500C33169 /* PaymentCell.xib in Resources */,
+				B7420FD21E77C77900C33169 /* TimeSiztView.xib in Resources */,
+				B739368E1E78D99D00F4D547 /* 地点@3x.png in Resources */,
+				B739368F1E78D99D00F4D547 /* 电话@2x.png in Resources */,
+				B73936921E78D99D00F4D547 /* 请教问题@3x.png in Resources */,
+				B7420FF81E77C78500C33169 /* PersonalCell.xib in Resources */,
+				B73936A31E78D9F800F4D547 /* zhifu.png in Resources */,
+				B73936911E78D99D00F4D547 /* 请教问题@2x.png in Resources */,
+				B73936981E78D9B600F4D547 /* 红色点.png in Resources */,
+				B7420FD01E77C77900C33169 /* loadView.xib in Resources */,
+				B739369A1E78D9B600F4D547 /* 灰色点.png in Resources */,
+				B7420FBD1E77C76D00C33169 /* ChonghuayjnCell.xib in Resources */,
+				B7420FFA1E77C78500C33169 /* QuXiaoTableViewCell.xib in Resources */,
+				B73936A01E78D9F800F4D547 /* jia@2x.png in Resources */,
+				B7420FF01E77C78500C33169 /* EvaluateCentreCell.xib in Resources */,
+				B73936A41E78D9F800F4D547 /* zhifuselecd.png in Resources */,
+				B73936991E78D9B600F4D547 /* 红色点白心.png in Resources */,
+				B7420FC11E77C76D00C33169 /* StudensWenTiCell.xib in Resources */,
 				B7420F561E77C5D800C33169 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +682,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9B043A85ED96F889247D20BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXPersonalAppointment/Pods-TRZXPersonalAppointment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC5C606DC3F23EF6BFBC7A1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC59D24DB10698C9915C31C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXPersonalAppointment/Pods-TRZXPersonalAppointment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7420F441E77C5D800C33169 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7420F531E77C5D800C33169 /* ViewController.m in Sources */,
+				B7420FCF1E77C77900C33169 /* loadView.m in Sources */,
+				B742101A1E77D5D300C33169 /* TRZXPStar.m in Sources */,
+				B74210011E77C79200C33169 /* ChooseMode.m in Sources */,
+				B7420FA91E77C75400C33169 /* StudenCancelController.m in Sources */,
+				B74210211E77F13E00C33169 /* TRZBookingView.m in Sources */,
+				B7420FF11E77C78500C33169 /* ExpertCell.m in Sources */,
+				B7420F9A1E77C74300C33169 /* LoadSeeController.m in Sources */,
+				B7420F9D1E77C74300C33169 /* YesEvaluateController.m in Sources */,
+				B742101D1E77DEA300C33169 /* TRZXPersonalAppointmentPch.m in Sources */,
 				B7420F501E77C5D800C33169 /* AppDelegate.m in Sources */,
+				B7420FA61E77C75400C33169 /* MyStudensController.m in Sources */,
+				B74210131E77D04900C33169 /* YuYueViewController.m in Sources */,
+				B7420F951E77C74300C33169 /* CancelViewController.m in Sources */,
+				B7420FC21E77C76D00C33169 /* WriteDataCell.m in Sources */,
+				B7420F961E77C74300C33169 /* ChooseTimeController.m in Sources */,
+				B73936A71E78DE9500F4D547 /* Target_TRZXPersonalAppointment.m in Sources */,
+				B7420FBE1E77C76D00C33169 /* PikerTimeCell.m in Sources */,
+				B7420F991E77C74300C33169 /* LoadPaymentController.m in Sources */,
+				B74210171E77D4F400C33169 /* TRZAExpertsDetailModel.m in Sources */,
+				B7420FF71E77C78500C33169 /* PersonalCell.m in Sources */,
+				B7420F9B1E77C74300C33169 /* MyExpertViewController.m in Sources */,
+				B7420F981E77C74300C33169 /* LoadEvaluateController.m in Sources */,
+				B74210081E77C7A100C33169 /* MyStudensMode.m in Sources */,
+				B74210031E77C79200C33169 /* MyExpertModel.m in Sources */,
+				B742100F1E77CA9A00C33169 /* TRZXPJiDuView.m in Sources */,
+				B7420FF51E77C78500C33169 /* PaymentTimeCell.m in Sources */,
+				B7420FBC1E77C76D00C33169 /* ChonghuayjnCell.m in Sources */,
+				B7420FEF1E77C78500C33169 /* EvaluateCentreCell.m in Sources */,
+				B7420FA81E77C75400C33169 /* RefuseController.m in Sources */,
+				B7420F9C1E77C74300C33169 /* UserFeedbackConroller.m in Sources */,
+				B742100C1E77C80900C33169 /* FirstViewController.m in Sources */,
+				B74210091E77C7A100C33169 /* SrudensDetailed.m in Sources */,
+				B7420FA71E77C75400C33169 /* PleaseReceiveController.m in Sources */,
+				B7420FD11E77C77900C33169 /* TimeSiztView.m in Sources */,
+				B7420FC01E77C76D00C33169 /* StudensWenTiCell.m in Sources */,
+				B7420FF31E77C78500C33169 /* PaymentCell.m in Sources */,
+				B7420FF91E77C78500C33169 /* QuXiaoTableViewCell.m in Sources */,
+				B7420FCD1E77C77900C33169 /* ConsultView.m in Sources */,
+				B7420FAE1E77C75C00C33169 /* CreateTimeController.m in Sources */,
+				B7420FAF1E77C75C00C33169 /* DaiFuKuanControllerViewController.m in Sources */,
 				B7420F4D1E77C5D800C33169 /* main.m in Sources */,
+				B74210021E77C79200C33169 /* MeetModel.m in Sources */,
+				B7420F971E77C74300C33169 /* LoadCountersignController.m in Sources */,
+				B7420FEB1E77C78500C33169 /* ChoosetimeCell.m in Sources */,
+				B7420FED1E77C78500C33169 /* EvaluateBelowCell.m in Sources */,
+				B73936AA1E78DEA800F4D547 /* CTMediator+TRZXPersonalAppointment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +927,11 @@
 		};
 		B7420F761E77C5D800C33169 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E886926923A76D4C48D51E /* Pods-TRZXPersonalAppointment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXPersonalAppointment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JWZhang.TRZXPersonalAppointment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,9 +940,11 @@
 		};
 		B7420F771E77C5D800C33169 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B861F90F2AF541B2A3E34D4C /* Pods-TRZXPersonalAppointment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXPersonalAppointment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JWZhang.TRZXPersonalAppointment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +1016,7 @@
 				B7420F771E77C5D800C33169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7420F781E77C5D800C33169 /* Build configuration list for PBXNativeTarget "TRZXPersonalAppointmentTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +1025,7 @@
 				B7420F7A1E77C5D800C33169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7420F7B1E77C5D800C33169 /* Build configuration list for PBXNativeTarget "TRZXPersonalAppointmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +1034,7 @@
 				B7420F7D1E77C5D800C33169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
