@@ -76,7 +76,7 @@
     [self.view addSubview:_yyView];
 
 
-    _yuYueView = [[[NSBundle mainBundle]loadNibNamed:@"TRZBookingView" owner:self options:nil] objectAtIndex:0];
+    _yuYueView = [[[NSBundle bundleForClass:[self class]]loadNibNamed:@"TRZBookingView" owner:self options:nil] objectAtIndex:0];
     _yuYueView.frame = CGRectMake(0, 0,_yyView.frame.size.width, SCREEN_HEIGHT-(self.bgView.frame.origin.y+self.bgView.frame.size.height+30)-95-30);
     _yuYueView.layer.cornerRadius = 10;
     _yuYueView.layer.borderWidth = 1;

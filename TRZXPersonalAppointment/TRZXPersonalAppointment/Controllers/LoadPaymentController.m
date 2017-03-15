@@ -490,7 +490,7 @@
         static NSString *PersonalID = @"PersonalID";
         PersonalCell *cell = [tableView dequeueReusableCellWithIdentifier:PersonalID];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"PersonalCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"PersonalCell" owner:self options:nil] lastObject];
         }
         cell.vipStr = _vipStr;
         cell.model = _meetModel;
@@ -503,7 +503,7 @@
         static NSString *PersonalID = @"PaymentID";
         PaymentCell *cell = [tableView dequeueReusableCellWithIdentifier:PersonalID];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"PaymentCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"PaymentCell" owner:self options:nil] lastObject];
         }
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(PaymentCell_Tap:)];
@@ -540,7 +540,7 @@
         static NSString *PersonalID = @"PaymentTimeID";
         PaymentTimeCell *cell = [tableView dequeueReusableCellWithIdentifier:PersonalID];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"PaymentTimeCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"PaymentTimeCell" owner:self options:nil] lastObject];
         }
         cell.HintView.backgroundColor = moneyColor;
         cell.HourLable.text = HourStr?HourStr:@"23";

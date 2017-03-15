@@ -376,7 +376,7 @@
     static NSString *expertCellID = @"expertCellID";
     ExpertCell *cell = [tableView dequeueReusableCellWithIdentifier:expertCellID];
     if (!cell) {
-        cell = [[[NSBundle mainBundle] loadNibNamed:@"ExpertCell" owner:self options:nil] lastObject];
+        cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ExpertCell" owner:self options:nil] lastObject];
     }
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.contentView.backgroundColor = backColor;

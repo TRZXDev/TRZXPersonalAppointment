@@ -96,7 +96,7 @@
         static NSString *CellID = @"CellID";
         ChoosetimeCell *cell = [tableView dequeueReusableCellWithIdentifier:CellID];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"ChoosetimeCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ChoosetimeCell" owner:self options:nil] lastObject];
         }
         ChooseData *datamode = [_mode.data objectAtIndex:indexPath.row];
         cell.CellBackView.backgroundColor = moneyColor;

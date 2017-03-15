@@ -240,7 +240,7 @@
         static NSString *personalID = @"personalID";
         ChonghuayjnCell *cell = [tableView dequeueReusableCellWithIdentifier:personalID];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"ChonghuayjnCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ChonghuayjnCell" owner:self options:nil] lastObject];
         }
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         cell.iconImage.layer.cornerRadius = 6.0;
@@ -256,7 +256,7 @@
         static NSString *StudenID = @"StudenID";
         StudensWenTiCell *cell = [tableView dequeueReusableCellWithIdentifier:StudenID];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"StudensWenTiCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"StudensWenTiCell" owner:self options:nil] lastObject];
         }
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         cell.WenTiLable.text = _mode.data.problem;
@@ -270,7 +270,7 @@
         static NSString *StudenID = @"StudenID";
         StudensWenTiCell *cell = [tableView dequeueReusableCellWithIdentifier:StudenID];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"StudensWenTiCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"StudensWenTiCell" owner:self options:nil] lastObject];
         }
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         cell.backgroundColor = backColor;

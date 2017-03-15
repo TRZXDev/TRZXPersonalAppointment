@@ -164,7 +164,7 @@
     _myTableView.separatorStyle = UITableViewCellSelectionStyleNone;
     [self.view addSubview:_myTableView];
     
-    _conSultView = [[[NSBundle mainBundle] loadNibNamed:@"ConsultView" owner:self options:nil] lastObject];
+    _conSultView = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ConsultView" owner:self options:nil] lastObject];
     _conSultView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.27];
     _conSultView.frame = CGRectMake(0, 0, WIDTH(self.view), HEIGTH(self.view));
     _conSultView.hidden = YES;
@@ -177,7 +177,7 @@
     _conSultView.hidden = YES;
     [self.view addSubview:_conSultView];
     
-    _timeSiztView = [[[NSBundle mainBundle] loadNibNamed:@"TimeSiztView" owner:self options:nil] lastObject];
+    _timeSiztView = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"TimeSiztView" owner:self options:nil] lastObject];
     _timeSiztView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.27];
     _timeSiztView.frame = CGRectMake(0, 0, WIDTH(self.view), HEIGTH(self.view));
     _timeSiztView.hidden = YES;
@@ -231,7 +231,7 @@
             static NSString *PersonalID = @"ChongHuaID";
             ChonghuayjnCell *cell = [tableView dequeueReusableCellWithIdentifier:PersonalID];
             if (!cell) {
-                cell = [[[NSBundle mainBundle] loadNibNamed:@"ChonghuayjnCell" owner:self options:nil] lastObject];
+                cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ChonghuayjnCell" owner:self options:nil] lastObject];
             }
             cell.backgroundColor = backColor;
             cell.iconImage.layer.cornerRadius = 6.0;
@@ -254,7 +254,7 @@
         static NSString *PersonalID = @"PersonalID";
         PersonalCell *cell = [tableView dequeueReusableCellWithIdentifier:PersonalID];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"PersonalCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"PersonalCell" owner:self options:nil] lastObject];
         }
         cell.cellBackView.backgroundColor = moneyColor;
         cell.contentView.backgroundColor = backColor;
@@ -272,7 +272,7 @@
         static NSString *PersonalID = @"PersonalID";
         EvaluateCentreCell *cell = [tableView dequeueReusableCellWithIdentifier:PersonalID];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"EvaluateCentreCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"EvaluateCentreCell" owner:self options:nil] lastObject];
         }
         
         cell.contentView.backgroundColor = backColor;
@@ -304,7 +304,7 @@
         static NSString *PersonalID = @"PersonalID";
         EvaluateBelowCell *cell = [tableView dequeueReusableCellWithIdentifier:PersonalID];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"EvaluateBelowCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"EvaluateBelowCell" owner:self options:nil] lastObject];
         }
         
         if ([_superType isEqualToString:@"teacher"]) {

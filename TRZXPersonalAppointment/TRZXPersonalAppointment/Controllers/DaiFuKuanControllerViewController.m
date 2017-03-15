@@ -410,7 +410,7 @@
 //    static NSString *personalID = @"personalID";
     ChonghuayjnCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ChonghuayjnCell"];
     if (!cell) {
-        cell = [[[NSBundle mainBundle] loadNibNamed:@"ChonghuayjnCell" owner:self options:nil] lastObject];
+        cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ChonghuayjnCell" owner:self options:nil] lastObject];
     }
         cell.iconImage.layer.cornerRadius = 6.0;
         cell.iconImage.layer.masksToBounds = YES;
@@ -431,7 +431,7 @@
 //        static NSString *personalID = @"personal1ID";
         QuXiaoTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"QuXiaoTableViewCell"];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"QuXiaoTableViewCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"QuXiaoTableViewCell" owner:self options:nil] lastObject];
         }
         cell.yuanyinLabel.text = _mode.data.qxReason;
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -444,7 +444,7 @@
 
 - (void)createBottomView
 {
-    EvaluateBelowCell *cell = [[[NSBundle mainBundle]loadNibNamed:@"EvaluateBelowCell" owner:self options:nil] firstObject];
+    EvaluateBelowCell *cell = [[[NSBundle bundleForClass:[self class]]loadNibNamed:@"EvaluateBelowCell" owner:self options:nil] firstObject];
     cell.CellTitleLable.text = @"约见信息";
     cell.jieShaoLable.text = @"学员介绍";
     cell.phoneLable.text = @"学员电话";
@@ -455,7 +455,7 @@
     cell.delegate = self;
     [self.view addSubview:cell];
     
-    _conSultView = [[[NSBundle mainBundle] loadNibNamed:@"ConsultView" owner:self options:nil] lastObject];
+    _conSultView = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ConsultView" owner:self options:nil] lastObject];
     _conSultView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.27];
     _conSultView.frame = CGRectMake(0, 0, WIDTH(self.view), HEIGTH(self.view));
     _conSultView.hidden = YES;
@@ -469,7 +469,7 @@
     [self.view addSubview:_conSultView];
     
     
-    _timeSiztView = [[[NSBundle mainBundle] loadNibNamed:@"TimeSiztView" owner:self options:nil] lastObject];
+    _timeSiztView = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"TimeSiztView" owner:self options:nil] lastObject];
     _timeSiztView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.27];
     _timeSiztView.frame = CGRectMake(0, 0, WIDTH(self.view), HEIGTH(self.view));
     _timeSiztView.hidden = YES;

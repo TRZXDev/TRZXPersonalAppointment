@@ -225,39 +225,39 @@
 }
 
 - (void)createCell {
-    _piker1 = [[[NSBundle mainBundle] loadNibNamed:@"PikerTimeCell" owner:self options:nil] lastObject];
+    _piker1 = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"PikerTimeCell" owner:self options:nil] lastObject];
     _piker1.frame = CGRectMake(0, 0, WIDTH(self.view), 250);
     _piker1.hidden = YES;
     _piker1.delegate = self;
     _piker1.pikerTime.delegate = self;
     _piker1.pikerTime.dataSource = self;
     
-    _Choosetime1 = [[[NSBundle mainBundle] loadNibNamed:@"ChoosetimeCell" owner:self options:nil] lastObject];
+    _Choosetime1 = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ChoosetimeCell" owner:self options:nil] lastObject];
     _Choosetime1.CellBackView.backgroundColor = moneyColor;
     _Choosetime1.frame = CGRectMake(0, 10, WIDTH(self.view), 150);
     _Choosetime1.hidden = YES;
     _Choosetime1.guanBiBtn.hidden = NO;
     _Choosetime1.delegate = self;
     
-    _piker2 = [[[NSBundle mainBundle] loadNibNamed:@"PikerTimeCell" owner:self options:nil] lastObject];
+    _piker2 = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"PikerTimeCell" owner:self options:nil] lastObject];
     _piker2.frame = CGRectMake(0, 180, WIDTH(self.view), 250);
     _piker2.hidden = YES;
     _piker2.delegate = self;
     _piker2.pikerTime.delegate = self;
     _piker2.pikerTime.dataSource = self;
-    _Choosetime2 = [[[NSBundle mainBundle] loadNibNamed:@"ChoosetimeCell" owner:self options:nil] lastObject];
+    _Choosetime2 = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ChoosetimeCell" owner:self options:nil] lastObject];
     _Choosetime2.CellBackView.backgroundColor = moneyColor;
     _Choosetime2.frame = CGRectMake(0, 170, WIDTH(self.view), 150);
     _Choosetime2.hidden = YES;
     _Choosetime2.guanBiBtn.hidden = NO;
     _Choosetime2.delegate = self;
-    _piker3 = [[[NSBundle mainBundle] loadNibNamed:@"PikerTimeCell" owner:self options:nil] lastObject];
+    _piker3 = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"PikerTimeCell" owner:self options:nil] lastObject];
     _piker3.frame = CGRectMake(0, 345, WIDTH(self.view), 250);
     _piker3.hidden = YES;
     _piker3.delegate = self;
     _piker3.pikerTime.delegate = self;
     _piker3.pikerTime.dataSource = self;
-    _Choosetime3 = [[[NSBundle mainBundle] loadNibNamed:@"ChoosetimeCell" owner:self options:nil] lastObject];
+    _Choosetime3 = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ChoosetimeCell" owner:self options:nil] lastObject];
     _Choosetime3.delegate = self;
     _Choosetime3.CellBackView.backgroundColor = moneyColor;
     _Choosetime3.frame = CGRectMake(0, 330, WIDTH(self.view), 150);
@@ -276,7 +276,7 @@
     [_myScrollView addSubview:_Choosetime2];
     [_myScrollView addSubview:_Choosetime3];
     
-    _writeData = [[[NSBundle mainBundle] loadNibNamed:@"WriteDataCell" owner:self options:nil] lastObject];
+    _writeData = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"WriteDataCell" owner:self options:nil] lastObject];
     _writeData.backgroundColor = [[UIColor grayColor] colorWithAlphaComponent:0.5];
     _writeData.contentView.backgroundColor = [[UIColor grayColor] colorWithAlphaComponent:0.5];
     _writeData.dataText.layer.borderColor = [[UIColor lightGrayColor] CGColor];
